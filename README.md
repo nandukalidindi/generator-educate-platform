@@ -7,13 +7,18 @@ First, install [Yeoman](http://yeoman.io) and generator-educate-platform using [
 
 ```bash
 npm install -g yo
-npm install -g generator-educate-platform
 ```
 
-Then generate your new project:
+Now, clone / fork this project and navigate to the generator-educate-platform directory and execute
 
 ```bash
-yo educate-platform
+npm link
+```
+
+Then generate your new component:
+
+```bash
+yo educate-platform **(should be at the root of the educate-platform project)**
 ```
 
 ## Getting To Know Yeoman
