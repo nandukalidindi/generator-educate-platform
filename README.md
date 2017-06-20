@@ -15,11 +15,16 @@ Now, clone / fork this project and navigate to the generator-educate-platform di
 npm link
 ```
 
-Then generate your new component:
+Then generate your new component (should be executed at the root of the educate-platform project):
 
 ```bash
-yo educate-platform **(should be at the root of the educate-platform project)**
+yo educate-platform
 ```
+
+## Future releases
+
+ * Submodule generators
+ * Router 
 
 ## Getting To Know Yeoman
 
