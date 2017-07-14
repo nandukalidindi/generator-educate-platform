@@ -48,5 +48,5 @@ export default Relay.createContainer(withStyles(css)(<%= name %>), {
   }
 });
 <% } else { %>
-export default withStyles(s)(<%= name %>);
+export default withStyles(css)(<%= name %>);
 <% } %>
